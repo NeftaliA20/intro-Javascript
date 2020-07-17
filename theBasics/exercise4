@@ -1,0 +1,5 @@
+let foo; //statment
+
+foo = 5; //expression
+
+foo; //expression

@@ -1,0 +1,7 @@
+parseInt('3.1415')
+
+This expression evalutes to being 3
+
+since this method ignore and stops with the first
+character that is not numeric.
+

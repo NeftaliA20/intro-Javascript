@@ -1,0 +1,7 @@
+let name = {
+	'asta': dog
+	'Willow': cat
+	'Jaden': cat
+	'Will': fish
+	'Jada': lizard
+}; 

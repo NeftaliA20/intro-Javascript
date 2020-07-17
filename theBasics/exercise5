@@ -1,0 +1,2 @@
+// console.log('5' + 10) logs '510' instead of 15 because in JavaScript if
+either number is a 'string', when using the + expression, it will convert the other data type into a string. 

@@ -1,0 +1,12 @@
+*/
+'true' = String
+
+false = Boolean
+
+1.5 = Number
+
+2 = Number
+
+undefined = undefined 
+
+{ foo: 'bar' } = Key-pair value object
