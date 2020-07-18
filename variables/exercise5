@@ -1,0 +1,3 @@
+// The program will display 'bar' instead of 'qux'. 
+//'bar' is on the global scope and can be accessed while 'qux' can not be.
+

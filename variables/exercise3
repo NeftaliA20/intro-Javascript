@@ -1,0 +1,7 @@
+{
+let foo = 'bar'
+}
+console.log(foo)
+
+	The above the code would display an error. The reasoning is that the variable is not on a global scope of the program. 
+	Meaning we can't access the variable from outside the curly brackets.
