@@ -1,13 +1,14 @@
 let rlSync = require('readline-sync');
-let age = rlSync.question('How old are you? ');
-age = parseInt(age);
+let age = Number(rlSync.question('How old are you? '));
+let ten = 10 + age ;
+let twenty = 20 + age;
+let thirty = 30 + age;
+let forty = 40 + age;
 
-function futureAge() {
-	console.log(`You are ${age} years old!`);
-        console.log(`In 10 years, you will be ${age + 10} years old.`);
-        console.log(`In 20 years, you will be ${age + 20} years old.`);
-        console.log(`In 30 years, you will be ${age + 30} years old.`);
-        console.log(`In 40 years, you will be ${age + 40} years old.`);
-}
-
-futureAge()
+console.log(`
+  You are ${age} years old
+  In 10 years, you will be ${ten} years old
+  In 20 years, you will be ${twenty} years old
+  In 30 years, you will be ${thirty} years old
+  In 40 years, you will be ${forty} years old
+`);
