@@ -1,7 +1,6 @@
-function say(words) {
+function say(words = 'Howdy') {
 	console.log(words + '!')
-}
+};
 
-say("Hello")
-say('Hi')
-say("Neftali")
+say("Hello");
+say();
