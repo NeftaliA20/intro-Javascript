@@ -1,0 +1,12 @@
+let bar = 1;
+function foo() {
+  let bar = 2;
+}
+
+foo();
+console.log(bar);
+
+This code will log to the console the number 1.
+
+Executing the foo funtion will not affect the output because
+both variables aren't in the same scope thus having no affect.
